@@ -1,0 +1,44 @@
+{
+  "Models": [
+    "QuadArchitecture_AI",
+    "GCS_MVP_AI",
+    "ModeLogic_MVP_AI",
+    "Guidance_MVP_AI",
+    "FeedbackControl_MVP_AI",
+    "VehicleModel_MVP_AI",
+    "Visualization_MVP_AI"
+  ],
+  "ResolvedModelFiles": [
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\02_Executable_Model\\QuadArchitecture_AI.slx",
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\02_Executable_Model\\GCS_MVP_AI.slx",
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\02_Executable_Model\\ModeLogic_MVP_AI.slx",
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\02_Executable_Model\\Guidance_MVP_AI.slx",
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\02_Executable_Model\\FeedbackControl_MVP_AI.slx",
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\02_Executable_Model\\VehicleModel_MVP_AI.slx",
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\02_Executable_Model\\Visualization_MVP_AI.slx"
+  ],
+  "ResolvedDictionaries": [
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\02_Executable_Model\\QuadInterfaces_AI.sldd",
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\02_Executable_Model\\QuadInterfaces_AI.sldd",
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\02_Executable_Model\\QuadInterfaces_AI.sldd",
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\02_Executable_Model\\QuadInterfaces_AI.sldd",
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\02_Executable_Model\\QuadInterfaces_AI.sldd",
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\02_Executable_Model\\QuadInterfaces_AI.sldd",
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\02_Executable_Model\\QuadInterfaces_AI.sldd"
+  ],
+  "DictionaryReferences": [],
+  "AlgorithmAndRunFiles": [
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\02_Executable_Model\\quad_mvp_parameters.m",
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\02_Executable_Model\\init_stage02.m",
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\02_Executable_Model\\run_stage02_smoke.m",
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\02_Executable_Model\\stage02_gcs.m",
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\02_Executable_Model\\stage02_mode_logic.m",
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\02_Executable_Model\\stage02_guidance.m",
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\02_Executable_Model\\stage02_feedback_control.m",
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\02_Executable_Model\\stage02_state_adapter.m"
+  ],
+  "Stage01WorkingDependencies": 0,
+  "RequirementCount": 18,
+  "LocalArchitectureLinkCount": 40,
+  "VerifyLinks": 0
+}

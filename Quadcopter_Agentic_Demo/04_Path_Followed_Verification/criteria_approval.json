@@ -1,0 +1,7 @@
+{
+    "CriteriaVersion":  "PF-CRITERIA-v1",
+    "UserResponse":  "Approve PF-CRITERIA-v1",
+    "RecordedAtUTC":  "2026-11-16 02:44:44 UTC",
+    "ApprovedScope":  "FR-06 only; modes 2-4; finite active 3D segment; 0.20 m corridor and ordered endpoint arrival; 90 s maximum",
+    "ControllerRetuningAuthorized":  false
+}

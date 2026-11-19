@@ -1,0 +1,94 @@
+{
+  "CriteriaVersion": "PF-CRITERIA-v1",
+  "Parameters": {
+    "SampleTime": 0.02,
+    "FixedStep": 0.005,
+    "StopTime": 90,
+    "StartTime": 1,
+    "Mass": 1,
+    "Gravity": 9.81,
+    "InitialPosition": [
+      0,
+      0,
+      0
+    ],
+    "TakeoffPosition": [
+      0,
+      0,
+      -2
+    ],
+    "Waypoints": [
+      [
+        2,
+        0,
+        -2
+      ],
+      [
+        2,
+        2,
+        -2
+      ],
+      [
+        0,
+        2,
+        -2
+      ]
+    ],
+    "ArrivalRadius": 0.12,
+    "ArrivalSpeed": 0.15,
+    "HoverDwell": 1,
+    "LandingSpeed": 0.25,
+    "LandedHeight": 0.025,
+    "LandedSpeed": 0.12,
+    "Kp": [
+      1.2,
+      1.2,
+      2
+    ],
+    "Ki": [
+      0.06,
+      0.06,
+      0.08
+    ],
+    "Kd": [
+      2,
+      2,
+      2.5
+    ],
+    "IntegralLimit": [
+      2,
+      2,
+      2
+    ],
+    "AccelerationLimit": [
+      2,
+      2,
+      2.5
+    ],
+    "TiltLimit": 0.3,
+    "ThrustLimits": [
+      1.9620000000000002,
+      17.658
+    ],
+    "AttitudePD": [
+      100,
+      20
+    ],
+    "YawRateGain": 20,
+    "ThrustGain": 30
+  },
+  "Model": "QuadArchitecture_AI",
+  "SimulationMode": "Normal",
+  "MaximumStopTimeSeconds": 90,
+  "Solver": "ode4",
+  "FixedStep": "0.005",
+  "NativeOutcome": "Passed",
+  "NumPassed": 1,
+  "NumFailed": 0,
+  "NumIncomplete": 0,
+  "RunStartLocal": "16-Nov-2026 10:47:46",
+  "RunStopLocal": "16-Nov-2026 10:52:29",
+  "WallClockDurationSeconds": "282.43 sec",
+  "SimulationWarnings": 0,
+  "StoredCustomCriteriaFigures": 1
+}

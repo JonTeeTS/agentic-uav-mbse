@@ -1,0 +1,26 @@
+{
+  "ReviewType": "Engineering demonstration and visual inspection; not formal requirement verification",
+  "SV02": {
+    "Implementation": "Native UAV Animation built-in Multirotor mesh, one UAV, opaque red",
+    "Observed": "Four rotor discs and connecting arms distinguishable in takeoff preview and live/final 3D view"
+  },
+  "SV03": {
+    "Implementation": "Same three waypoint targets as Guidance, blue square markers, native actual-trajectory trace",
+    "Observed": "Takeoff preview, complete flight trace, three target markers, landing approach, and actual position/mode plots inspected"
+  },
+  "SV04": {
+    "Implementation": "Direct NED position and scalar-first body-to-NED quaternion, Animation Down/Quaternion settings",
+    "Observed": "Displayed ENU axes and body north/east/down axes consistent with documented input convention; no additional sign/axis conversion before block"
+  },
+  "CameraAndVisibility": "Fixed bounded scene and orthographic review camera; red rotor/arm mesh remains recognizable",
+  "MissionIssues": "Small altitude/corner overshoots visible in actual plots; no mission abort or numerical failure observed",
+  "LandingLimitation": "Inherited proximity stop about 2.2 cm above ground; physical touchdown/contact not modeled or visually fabricated",
+  "Evidence": [
+    "flight_evidence/takeoff_preview.png",
+    "flight_evidence/flight_3d_final.png",
+    "flight_evidence/mission_position_trajectory.png",
+    "flight_result.mat",
+    "flight_status.json"
+  ],
+  "FormalVerification": "Not performed; FR-06 remains the sole formal verification target"
+}

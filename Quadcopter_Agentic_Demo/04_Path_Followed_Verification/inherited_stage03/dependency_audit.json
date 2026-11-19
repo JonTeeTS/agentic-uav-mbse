@@ -1,0 +1,39 @@
+{
+  "Stage": "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\03_3D_Flight_Simulation",
+  "ModelPaths": [
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\03_3D_Flight_Simulation\\QuadArchitecture_AI.slx",
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\03_3D_Flight_Simulation\\GCS_MVP_AI.slx",
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\03_3D_Flight_Simulation\\ModeLogic_MVP_AI.slx",
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\03_3D_Flight_Simulation\\Guidance_MVP_AI.slx",
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\03_3D_Flight_Simulation\\FeedbackControl_MVP_AI.slx",
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\03_3D_Flight_Simulation\\VehicleModel_MVP_AI.slx",
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\03_3D_Flight_Simulation\\Visualization_MVP_AI.slx"
+  ],
+  "DictionaryPaths": [
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\03_3D_Flight_Simulation\\QuadInterfaces_AI.sldd",
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\03_3D_Flight_Simulation\\QuadInterfaces_AI.sldd",
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\03_3D_Flight_Simulation\\QuadInterfaces_AI.sldd",
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\03_3D_Flight_Simulation\\QuadInterfaces_AI.sldd",
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\03_3D_Flight_Simulation\\QuadInterfaces_AI.sldd",
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\03_3D_Flight_Simulation\\QuadInterfaces_AI.sldd",
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\03_3D_Flight_Simulation\\QuadInterfaces_AI.sldd"
+  ],
+  "HelperPaths": [
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\03_3D_Flight_Simulation\\init_stage02.m",
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\03_3D_Flight_Simulation\\init_stage03.m",
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\03_3D_Flight_Simulation\\quad_mvp_parameters.m",
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\03_3D_Flight_Simulation\\run_stage02_smoke.m",
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\03_3D_Flight_Simulation\\run_stage03_flight.m",
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\03_3D_Flight_Simulation\\stage02_feedback_control.m",
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\03_3D_Flight_Simulation\\stage02_gcs.m",
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\03_3D_Flight_Simulation\\stage02_guidance.m",
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\03_3D_Flight_Simulation\\stage02_mode_logic.m",
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\03_3D_Flight_Simulation\\stage02_state_adapter.m",
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\03_3D_Flight_Simulation\\stage03_review_figures.m",
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\03_3D_Flight_Simulation\\stage03_rows.m"
+  ],
+  "Requirements": 18,
+  "LocalTraceabilityLinks": 43,
+  "VerifyLinks": 0,
+  "EarlierStageWorkingDependencies": 0
+}

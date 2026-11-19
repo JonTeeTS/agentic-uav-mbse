@@ -1,0 +1,46 @@
+{
+    "Version":  "PF-CRITERIA-v1",
+    "Approved":  true,
+    "ApprovalRecord":  "User explicitly selected Approve PF-CRITERIA-v1 in this conversation on 2026-11-16.",
+    "Requirement":  "UAV-MVP-FR-06",
+    "TestFile":  "QuadcopterTests_AI.mldatx",
+    "TestCase":  "Path Followed",
+    "ToleranceMeters":  0.20,
+    "WaypointArrivalToleranceMeters":  0.20,
+    "PathVerticesNED":  [
+                            [
+                                0,
+                                0,
+                                -2
+                            ],
+                            [
+                                2,
+                                0,
+                                -2
+                            ],
+                            [
+                                2,
+                                2,
+                                -2
+                            ],
+                            [
+                                0,
+                                2,
+                                -2
+                            ]
+                        ],
+    "AssessedFlightModes":  [
+                                2,
+                                3,
+                                4
+                            ],
+    "PositionSource":  "Actual GCS-received telemetryPosition.PositionNED",
+    "ModeSource":  "Actual telemetryFlightMode.Mode",
+    "NominalSamplePeriodSeconds":  0.02,
+    "MaximumSimulationTimeSeconds":  90,
+    "ErrorDefinition":  "3D Euclidean distance to finite active segment; clamped orthogonal projection",
+    "RequireOrderedWaypointArrival":  true,
+    "AllowedCorridorViolations":  0,
+    "ExcludeTakeoffLandingPerformance":  true,
+    "ApprovedAtUTC":  "2026-11-16 02:44:44 UTC"
+}

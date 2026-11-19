@@ -1,0 +1,45 @@
+{
+  "Stage": "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\04_Path_Followed_Verification",
+  "ModelFiles": [
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\04_Path_Followed_Verification\\QuadArchitecture_AI.slx",
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\04_Path_Followed_Verification\\GCS_MVP_AI.slx",
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\04_Path_Followed_Verification\\ModeLogic_MVP_AI.slx",
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\04_Path_Followed_Verification\\Guidance_MVP_AI.slx",
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\04_Path_Followed_Verification\\FeedbackControl_MVP_AI.slx",
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\04_Path_Followed_Verification\\VehicleModel_MVP_AI.slx",
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\04_Path_Followed_Verification\\Visualization_MVP_AI.slx"
+  ],
+  "Dictionary": "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\04_Path_Followed_Verification\\QuadInterfaces_AI.sldd",
+  "Requirements": 18,
+  "LocalLinks": 45,
+  "VerifyLinkTargets": [
+    "UAV-MVP-FR-06"
+  ],
+  "TestFile": "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\04_Path_Followed_Verification\\QuadcopterTests_AI.mldatx",
+  "TestCase": "Path Followed",
+  "TestEnabled": true,
+  "ModelUnderTest": "QuadArchitecture_AI",
+  "StopTime": 90,
+  "AssessmentExecution": "Executed after explicit approval; native Simulink Test result Passed",
+  "NativeOutcome": "Passed",
+  "HelperPaths": [
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\04_Path_Followed_Verification\\init_stage02.m",
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\04_Path_Followed_Verification\\init_stage03.m",
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\04_Path_Followed_Verification\\init_stage04.m",
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\04_Path_Followed_Verification\\quad_mvp_parameters.m",
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\04_Path_Followed_Verification\\run_stage02_smoke.m",
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\04_Path_Followed_Verification\\run_stage03_flight.m",
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\04_Path_Followed_Verification\\run_stage04_verification.m",
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\04_Path_Followed_Verification\\stage02_feedback_control.m",
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\04_Path_Followed_Verification\\stage02_gcs.m",
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\04_Path_Followed_Verification\\stage02_guidance.m",
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\04_Path_Followed_Verification\\stage02_mode_logic.m",
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\04_Path_Followed_Verification\\stage02_state_adapter.m",
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\04_Path_Followed_Verification\\stage03_review_figures.m",
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\04_Path_Followed_Verification\\stage03_rows.m",
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\04_Path_Followed_Verification\\stage04_custom_criteria.m",
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\04_Path_Followed_Verification\\stage04_path_metrics.m",
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\04_Path_Followed_Verification\\stage04_plot_evidence.m",
+    "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\04_Path_Followed_Verification\\stage04_require_approval.m"
+  ]
+}

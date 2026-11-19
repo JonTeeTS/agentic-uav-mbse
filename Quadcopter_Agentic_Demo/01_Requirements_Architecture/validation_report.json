@@ -1,0 +1,300 @@
+{
+  "MATLABVersion": "26.2.0.3433840 (R2026b) Update 1",
+  "Stage": "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\01_Requirements_Architecture",
+  "RequirementCount": 18,
+  "ComponentCount": 8,
+  "TypedPortCount": 30,
+  "ConsistentConnectorCount": 23,
+  "UpdateStatus": "Blocked by architecture-only NoBehaviorsForArchitectureModel; no executable behaviors were created.",
+  "UpdateDiagnostic": "Simulink:Engine:NoBehaviorsForArchitectureModel",
+  "FormalVerificationTarget": "UAV-MVP-FR-06",
+  "FormalVerifyLinkCount": 0,
+  "Requirements": [
+    {
+      "Id": "UAV-MVP-FR-01",
+      "Summary": "The system shall execute an autonomous mission consisting of takeoff, traversal of three predefined waypoints, and landing.",
+      "Priority": "Mandatory",
+      "FormalVerificationTarget": "No",
+      "LinkCount": 3,
+      "LinkTypes": [
+        "Implement",
+        "Implement",
+        "Implement"
+      ],
+      "ComponentNames": [
+        "AirVehicle",
+        "ModeLogic",
+        "Guidance"
+      ]
+    },
+    {
+      "Id": "UAV-MVP-FR-02",
+      "Summary": "The flight control system shall provide closed-loop guidance and control to track commanded waypoints and maintain stable simulated flight.",
+      "Priority": "Mandatory",
+      "FormalVerificationTarget": "No",
+      "LinkCount": 3,
+      "LinkTypes": [
+        "Implement",
+        "Implement",
+        "Implement"
+      ],
+      "ComponentNames": [
+        "FCS",
+        "Guidance",
+        "FeedbackControl"
+      ]
+    },
+    {
+      "Id": "UAV-MVP-FR-03",
+      "Summary": "The flight control system shall accept mission commands and waypoint targets from the Ground Control Station.",
+      "Priority": "Mandatory",
+      "FormalVerificationTarget": "No",
+      "LinkCount": 2,
+      "LinkTypes": [
+        "Implement",
+        "Implement"
+      ],
+      "ComponentNames": [
+        "GroundControlStation",
+        "FCS"
+      ]
+    },
+    {
+      "Id": "UAV-MVP-FR-04",
+      "Summary": "The system shall transmit simulated vehicle position and flight-mode information to the Ground Control Station.",
+      "Priority": "Mandatory",
+      "FormalVerificationTarget": "No",
+      "LinkCount": 4,
+      "LinkTypes": [
+        "Implement",
+        "Implement",
+        "Implement",
+        "Implement"
+      ],
+      "ComponentNames": [
+        "GroundControlStation",
+        "AirVehicle",
+        "VehicleModel",
+        "ModeLogic"
+      ]
+    },
+    {
+      "Id": "UAV-MVP-FR-05",
+      "Summary": "The system should maintain a hover at a designated waypoint before continuing the mission.",
+      "Priority": "Optional",
+      "FormalVerificationTarget": "No",
+      "LinkCount": 2,
+      "LinkTypes": [
+        "Relate",
+        "Relate"
+      ],
+      "ComponentNames": [
+        "ModeLogic",
+        "Guidance"
+      ]
+    },
+    {
+      "Id": "UAV-MVP-FR-06",
+      "Summary": "The system shall follow a predefined waypoint flight path during simulation.",
+      "Priority": "Mandatory",
+      "FormalVerificationTarget": "Yes",
+      "LinkCount": 2,
+      "LinkTypes": [
+        "Implement",
+        "Implement"
+      ],
+      "ComponentNames": [
+        "FCS",
+        "Guidance"
+      ]
+    },
+    {
+      "Id": "UAV-MVP-AR-01",
+      "Summary": "The system architecture shall include GroundControlStation, AirVehicle, and Visualization components.",
+      "Priority": "Mandatory",
+      "FormalVerificationTarget": "No",
+      "LinkCount": 3,
+      "LinkTypes": [
+        "Implement",
+        "Implement",
+        "Implement"
+      ],
+      "ComponentNames": [
+        "GroundControlStation",
+        "AirVehicle",
+        "Visualization"
+      ]
+    },
+    {
+      "Id": "UAV-MVP-AR-02",
+      "Summary": "AirVehicle shall comprise FCS and VehicleModel components.",
+      "Priority": "Mandatory",
+      "FormalVerificationTarget": "No",
+      "LinkCount": 2,
+      "LinkTypes": [
+        "Implement",
+        "Implement"
+      ],
+      "ComponentNames": [
+        "FCS",
+        "VehicleModel"
+      ]
+    },
+    {
+      "Id": "UAV-MVP-AR-03",
+      "Summary": "FCS shall comprise ModeLogic, Guidance, and FeedbackControl components.",
+      "Priority": "Mandatory",
+      "FormalVerificationTarget": "No",
+      "LinkCount": 3,
+      "LinkTypes": [
+        "Implement",
+        "Implement",
+        "Implement"
+      ],
+      "ComponentNames": [
+        "ModeLogic",
+        "Guidance",
+        "FeedbackControl"
+      ]
+    },
+    {
+      "Id": "UAV-MVP-AR-04",
+      "Summary": "Model interfaces shall carry the mission commands, waypoint targets, control outputs, vehicle state, and telemetry needed for closed-loop simulation.",
+      "Priority": "Mandatory",
+      "FormalVerificationTarget": "No",
+      "LinkCount": 5,
+      "LinkTypes": [
+        "Implement",
+        "Implement",
+        "Implement",
+        "Implement",
+        "Implement"
+      ],
+      "ComponentNames": [
+        "GroundControlStation",
+        "AirVehicle",
+        "FCS",
+        "VehicleModel",
+        "Visualization"
+      ]
+    },
+    {
+      "Id": "UAV-MVP-SV-01",
+      "Summary": "The system shall run as an executable, closed-loop Simulink simulation using a low-fidelity quadcopter vehicle model.",
+      "Priority": "Mandatory",
+      "FormalVerificationTarget": "No",
+      "LinkCount": 2,
+      "LinkTypes": [
+        "Implement",
+        "Implement"
+      ],
+      "ComponentNames": [
+        "FCS",
+        "VehicleModel"
+      ]
+    },
+    {
+      "Id": "UAV-MVP-SV-02",
+      "Summary": "The visualization shall display a recognizable, opaque 3D quadcopter/multirotor body, not only a point or dot marker.",
+      "Priority": "Mandatory",
+      "FormalVerificationTarget": "No",
+      "LinkCount": 1,
+      "LinkTypes": [
+        "Implement"
+      ],
+      "ComponentNames": [
+        "Visualization"
+      ]
+    },
+    {
+      "Id": "UAV-MVP-SV-03",
+      "Summary": "The visualization shall show the vehicle moving through the mission and shall display the target waypoints and actual flight trajectory.",
+      "Priority": "Mandatory",
+      "FormalVerificationTarget": "No",
+      "LinkCount": 1,
+      "LinkTypes": [
+        "Implement"
+      ],
+      "ComponentNames": [
+        "Visualization"
+      ]
+    },
+    {
+      "Id": "UAV-MVP-SV-04",
+      "Summary": "The animation shall present the vehicle's position and orientation consistently with the simulation coordinate convention.",
+      "Priority": "Mandatory",
+      "FormalVerificationTarget": "No",
+      "LinkCount": 2,
+      "LinkTypes": [
+        "Implement",
+        "Implement"
+      ],
+      "ComponentNames": [
+        "VehicleModel",
+        "Visualization"
+      ]
+    },
+    {
+      "Id": "UAV-MVP-VR-01",
+      "Summary": "A simulation-based test case named Path Followed shall assess UAV-MVP-FR-06.",
+      "Priority": "",
+      "FormalVerificationTarget": "No",
+      "LinkCount": 1,
+      "LinkTypes": [
+        "Relate"
+      ],
+      "ComponentNames": [
+        "Guidance"
+      ]
+    },
+    {
+      "Id": "UAV-MVP-VR-02",
+      "Summary": "The waypoint-following test shall use a numerical position tolerance agreed before execution.",
+      "Priority": "",
+      "FormalVerificationTarget": "No",
+      "LinkCount": 1,
+      "LinkTypes": [
+        "Relate"
+      ],
+      "ComponentNames": [
+        "Guidance"
+      ]
+    },
+    {
+      "Id": "UAV-MVP-VR-03",
+      "Summary": "The test shall record measured tracking performance and report pass, fail, or inconclusive based on actual evidence.",
+      "Priority": "",
+      "FormalVerificationTarget": "No",
+      "LinkCount": 1,
+      "LinkTypes": [
+        "Relate"
+      ],
+      "ComponentNames": [
+        "Guidance"
+      ]
+    },
+    {
+      "Id": "UAV-MVP-VR-04",
+      "Summary": "The verification test shall be traceable to UAV-MVP-FR-06 and its relevant architecture or implementation elements.",
+      "Priority": "",
+      "FormalVerificationTarget": "No",
+      "LinkCount": 2,
+      "LinkTypes": [
+        "Relate",
+        "Relate"
+      ],
+      "ComponentNames": [
+        "FCS",
+        "Guidance"
+      ]
+    }
+  ],
+  "TotalLinks": 40,
+  "ImplementLinks": 33,
+  "RelateLinks": 7,
+  "ConnectivityCheck": "model_check healthy: no disconnected ports or dangling lines",
+  "RequirementIDsAndWording": "18/18 exact IDs and rendered requirement wording matched the local Markdown baseline",
+  "PriorityCheck": "All source priorities preserved; VR priorities remain unspecified because baseline has no Priority column",
+  "ReloadCheck": "Passed: reopened saved model and requirements; 40 links, 30 typed ports, 23 compatible connectors",
+  "VisualReview": "All three exported architecture diagrams inspected; component and boundary port labels separated"
+}

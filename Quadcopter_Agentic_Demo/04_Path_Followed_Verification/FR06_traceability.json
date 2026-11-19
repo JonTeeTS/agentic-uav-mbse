@@ -1,0 +1,81 @@
+{
+  "Requirement": "UAV-MVP-FR-06",
+  "VerificationStatus": {
+    "failed": 0,
+    "justified": 0,
+    "none": 0,
+    "passed": 1,
+    "total": 1,
+    "unexecuted": 0
+  },
+  "Links": [
+    {
+      "Type": "Implement",
+      "Source": {
+        "domain": "linktype_rmi_simulink",
+        "artifact": "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\04_Path_Followed_Verification\\QuadArchitecture_AI.slx",
+        "id": ":4"
+      },
+      "Destination": {
+        "domain": "linktype_rmi_slreq",
+        "artifact": "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\04_Path_Followed_Verification\\Quadcopter_MVP_AI.slreqx",
+        "id": "UAV-MVP-FR-06",
+        "summary": "The system shall follow a predefined waypoint flight path during simulation.",
+        "reqSet": "Quadcopter_MVP_AI.slreqx",
+        "sid": 6,
+        "embeddedReq": false
+      }
+    },
+    {
+      "Type": "Implement",
+      "Source": {
+        "domain": "linktype_rmi_simulink",
+        "artifact": "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\04_Path_Followed_Verification\\QuadArchitecture_AI.slx",
+        "id": ":7"
+      },
+      "Destination": {
+        "domain": "linktype_rmi_slreq",
+        "artifact": "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\04_Path_Followed_Verification\\Quadcopter_MVP_AI.slreqx",
+        "id": "UAV-MVP-FR-06",
+        "summary": "The system shall follow a predefined waypoint flight path during simulation.",
+        "reqSet": "Quadcopter_MVP_AI.slreqx",
+        "sid": 6,
+        "embeddedReq": false
+      }
+    },
+    {
+      "Type": "Verify",
+      "Source": {
+        "domain": "linktype_rmi_testmgr",
+        "artifact": "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\04_Path_Followed_Verification\\QuadcopterTests_AI.mldatx",
+        "id": "e63610e0-484a-448f-a50f-01f93f7b6e65"
+      },
+      "Destination": {
+        "domain": "linktype_rmi_slreq",
+        "artifact": "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\04_Path_Followed_Verification\\Quadcopter_MVP_AI.slreqx",
+        "id": "UAV-MVP-FR-06",
+        "summary": "The system shall follow a predefined waypoint flight path during simulation.",
+        "reqSet": "Quadcopter_MVP_AI.slreqx",
+        "sid": 6,
+        "embeddedReq": false
+      }
+    },
+    {
+      "Type": "Implement",
+      "Source": {
+        "domain": "linktype_rmi_simulink",
+        "artifact": "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\04_Path_Followed_Verification\\Guidance_MVP_AI.slx",
+        "id": ":5"
+      },
+      "Destination": {
+        "domain": "linktype_rmi_slreq",
+        "artifact": "C:\\Demos\\agentic-uav-mbse\\Quadcopter_Agentic_Demo\\04_Path_Followed_Verification\\Quadcopter_MVP_AI.slreqx",
+        "id": "UAV-MVP-FR-06",
+        "summary": "The system shall follow a predefined waypoint flight path during simulation.",
+        "reqSet": "Quadcopter_MVP_AI.slreqx",
+        "sid": 6,
+        "embeddedReq": false
+      }
+    }
+  ]
+}

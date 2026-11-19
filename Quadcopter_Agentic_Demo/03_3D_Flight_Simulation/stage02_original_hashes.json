@@ -1,0 +1,390 @@
+﻿[
+    {
+        "Path":  "CHECKPOINT_SHA256.txt",
+        "Hash":  "A05FF3811B6800859D8B69D9438DF1A67D1E13F8F5292A9BC40E9559AAB515D6"
+    },
+    {
+        "Path":  "dependency_audit.json",
+        "Hash":  "7403A3F193DCF67672D6FC0D72AE9E8DBE86C06E9DFFD412046083D54406961F"
+    },
+    {
+        "Path":  "FeedbackControl_MVP_AI.slx",
+        "Hash":  "A634613D901EFC2025BC9DF5BE1D7F4C24C0840EB9AB228014FE2D493B889535"
+    },
+    {
+        "Path":  "GCS_MVP_AI.slx",
+        "Hash":  "6BF6B39DF6B8DD06CC87BC053F5D51B7E155106CA1997B920ADDDAE605602528"
+    },
+    {
+        "Path":  "Guidance_MVP_AI.slx",
+        "Hash":  "1B00F2E77D2EF19E8F6D2CFE7122E2541C32B1D22347D963BC9AA0F102623619"
+    },
+    {
+        "Path":  "init_stage02.m",
+        "Hash":  "9A77631FCD002F5B09A7AF16C13B18C5529649914E374B2E4C8B7FD27F57CB7A"
+    },
+    {
+        "Path":  "ModeLogic_MVP_AI.slx",
+        "Hash":  "FCB44E851AA67E53AD42FD93BCD801FB861B9D03B0FB57241CC2FDF83A951193"
+    },
+    {
+        "Path":  "QuadArchitecture_AI.slx",
+        "Hash":  "63750ABBA5790D01D7FAE6FEBC24B0C372C819EE0253601B5BD1A21CE2538893"
+    },
+    {
+        "Path":  "QuadArchitecture_AI~mdl.slmx",
+        "Hash":  "A83307E2EA4FE3B3A71E9213E02116D4E843E747611581CF153980745911D68F"
+    },
+    {
+        "Path":  "Quadcopter_MVP_AI.slreqx",
+        "Hash":  "A2C99EEA8DA4B0B0C3A2816E8CED0AD9B33D32FED61158DFF3D65D9B99D38710"
+    },
+    {
+        "Path":  "Quadcopter_MVP_Requirements_v1.md",
+        "Hash":  "F49FECEADD4037DF8886FD06C1455E38405BB697C0EED4DE7A4F194AB0EA3FA8"
+    },
+    {
+        "Path":  "QuadInterfaces_AI.sldd",
+        "Hash":  "9C7B16E09B97E6B13F0BA29896A77A9F70AA8A22286CD87C9D250F6F57DA7479"
+    },
+    {
+        "Path":  "quad_mvp_parameters.m",
+        "Hash":  "16AB26358EBF2B1CBB0F7D7FC1A45A6757DBCC1923E44DD94F11A028E9BA5646"
+    },
+    {
+        "Path":  "run_stage02_smoke.m",
+        "Hash":  "36241ABC039FF70D8DBCEAD30929818ADC76E74B0FDDD46F5B0D13A1B412DF89"
+    },
+    {
+        "Path":  "smoke_result.mat",
+        "Hash":  "10A56C6DB265F6D672DC6330817440071BD9357FA8D31F5E3C33E3D535BE10D0"
+    },
+    {
+        "Path":  "smoke_status.json",
+        "Hash":  "C60D3C4148A3A815DE03FBF76C431D3D260AC1AF200ABC70CE77F3FB76B5B61E"
+    },
+    {
+        "Path":  "stage01_integrity.json",
+        "Hash":  "C64FB37FB8959C861F53D31F9A76FF93FFA9DF2EB225862939AA4A843F12C86A"
+    },
+    {
+        "Path":  "stage01_original_hashes.json",
+        "Hash":  "8ECB2750A8A4BA44D8AC7DE27AA6529A70778D86FF94D7A0D0AFB1BF32A574B1"
+    },
+    {
+        "Path":  "stage02_feedback_control.m",
+        "Hash":  "11501E4A5DE02F991BDA15417A4BF4D39951C8512149900AC09A4646A9B2B4BF"
+    },
+    {
+        "Path":  "stage02_gcs.m",
+        "Hash":  "9DC5BDAF2B1E7F88294A66993146A69C1B099413C5A0633509768B32AA7C5A41"
+    },
+    {
+        "Path":  "stage02_guidance.m",
+        "Hash":  "81A2B79B3B4C0D49EB1C0A29A3761F1B9A01755E6A14BE1CB5D003990D1E2788"
+    },
+    {
+        "Path":  "stage02_mode_logic.m",
+        "Hash":  "0C3E3705D537EF8494A97B77C6A4105C54CFB6A1B298DA7025498927962E01AD"
+    },
+    {
+        "Path":  "stage02_state_adapter.m",
+        "Hash":  "A4A706527410F66DA4B5ED5EBF30CD24FA7CEE6D9065B300867A34BE7B2C63BE"
+    },
+    {
+        "Path":  "STAGE_README.md",
+        "Hash":  "5161D38FABBD3EEB3F5FCFE55438BD6C621A9FB44751762D734BC9ACA2998D11"
+    },
+    {
+        "Path":  "structural_checks.json",
+        "Hash":  "BC109B01ABEF613AD90F4A0FCEDF744B4243382B6C9B84D905328F813B2686BB"
+    },
+    {
+        "Path":  "validation_report.json",
+        "Hash":  "54542042A75DB4E5B6973C97BB83CDF49D3EBD9B38EAAF54EAD14FC0EFA95DFA"
+    },
+    {
+        "Path":  "VehicleModel_MVP_AI.slx",
+        "Hash":  "337258494F6B3AE16444D1D83FB97D368C53CEE32670D136F32920B665BEAB26"
+    },
+    {
+        "Path":  "Visualization_MVP_AI.slx",
+        "Hash":  "06DDA382F5E4D31F13C903CDBB42D5AF3A45E6B82782AFC76557F070495843EF"
+    },
+    {
+        "Path":  "cache\\FeedbackControl_MVP_AI.slxc",
+        "Hash":  "F46F9E697206B3044D7AA8317F5CDF2FC0BBB8C432B57D8A123E30860B9BF756"
+    },
+    {
+        "Path":  "cache\\GCS_MVP_AI.slxc",
+        "Hash":  "90037A67E4A3AA17B1F173722F0899C3D7AD5E7E578A402A74E8568EF7880423"
+    },
+    {
+        "Path":  "cache\\Guidance_MVP_AI.slxc",
+        "Hash":  "D3B33B64D61D452BE26BF5FDA8E4D176403EF5BAB3795523982FA9C703E0E1E2"
+    },
+    {
+        "Path":  "cache\\ModeLogic_MVP_AI.slxc",
+        "Hash":  "8EC9DA83079BA70D062366DD8A47631774AB696EFB886BB690D8A61478D7A543"
+    },
+    {
+        "Path":  "cache\\QuadArchitecture_AI.slxc",
+        "Hash":  "7855778B62280EFCB84CB64704D7C88ADC11E4AE6F0E1E3B092EA16ABF274089"
+    },
+    {
+        "Path":  "cache\\VehicleModel_MVP_AI.slxc",
+        "Hash":  "C7E71EA920D28668810CC7AAF2493808E44BB8162E8D1A79957B78362C45C4C5"
+    },
+    {
+        "Path":  "cache\\Visualization_MVP_AI.slxc",
+        "Hash":  "4A0ED7A60BC34FEC9324AFED97179A5D9AF5497E1128FC4078DC1104E7E81020"
+    },
+    {
+        "Path":  "cache\\slprj\\sim\\varcache\\FeedbackControl_MVP_AI\\checksumOfCache.mat",
+        "Hash":  "9A3C031C4A44D46A917DA97B526897DE43C715338C93C43D135A2BAE3BA8AB3B"
+    },
+    {
+        "Path":  "cache\\slprj\\sim\\varcache\\FeedbackControl_MVP_AI\\varInfo.mat",
+        "Hash":  "9CF3F7B3A0D9389EA31168D7428B6A63C57212B332B281E6B0BAFFB44A354358"
+    },
+    {
+        "Path":  "cache\\slprj\\sim\\varcache\\FeedbackControl_MVP_AI\\tmwinternal\\simulink_cache.xml",
+        "Hash":  "D9193C426E6A63FDADF99B11C92DE2F31DD6ECEAAC4626088733D82C0FDD7410"
+    },
+    {
+        "Path":  "cache\\slprj\\sim\\varcache\\GCS_MVP_AI\\checksumOfCache.mat",
+        "Hash":  "71FD10D60905F2CF8DD39DCCF85E4F7B873C4E7600B7977DDE4F70A618AAC4DE"
+    },
+    {
+        "Path":  "cache\\slprj\\sim\\varcache\\GCS_MVP_AI\\varInfo.mat",
+        "Hash":  "EC33E242D1E68F892D9B88F15D3FBC82801DB2BE682B3C0CA2136525D5C83DB8"
+    },
+    {
+        "Path":  "cache\\slprj\\sim\\varcache\\GCS_MVP_AI\\tmwinternal\\simulink_cache.xml",
+        "Hash":  "D028E280E04178842278662F7C4A706DEC595D734BCEC3BFF9623AB4EFFB7981"
+    },
+    {
+        "Path":  "cache\\slprj\\sim\\varcache\\Guidance_MVP_AI\\checksumOfCache.mat",
+        "Hash":  "51F801C89711DF0C19087605B65C625763635E98EEDAFA41B2E4C5CE8999CCE8"
+    },
+    {
+        "Path":  "cache\\slprj\\sim\\varcache\\Guidance_MVP_AI\\varInfo.mat",
+        "Hash":  "18214D7E82C216B3104A7B456550220C0737245F2309CC89AFC610D7D93FB8CB"
+    },
+    {
+        "Path":  "cache\\slprj\\sim\\varcache\\Guidance_MVP_AI\\tmwinternal\\simulink_cache.xml",
+        "Hash":  "CBD3A044791F050814DEE0004B421EEFBDA807154F173BFEC98B6E94E366B486"
+    },
+    {
+        "Path":  "cache\\slprj\\sim\\varcache\\ModeLogic_MVP_AI\\checksumOfCache.mat",
+        "Hash":  "5C96D0F76DF65E3F357A692017AAABD176E6F6891CF0D5E1F2AABB2822E1F375"
+    },
+    {
+        "Path":  "cache\\slprj\\sim\\varcache\\ModeLogic_MVP_AI\\varInfo.mat",
+        "Hash":  "E186E30DAAA4C1D69025EB65AE816CDC7BFFE40DC315F82A15D9A9AB0E306E50"
+    },
+    {
+        "Path":  "cache\\slprj\\sim\\varcache\\ModeLogic_MVP_AI\\tmwinternal\\simulink_cache.xml",
+        "Hash":  "EFD5075525305066096C28DFB55547C5B4114F6EE8F142D4D8A1B63815C7D2F6"
+    },
+    {
+        "Path":  "cache\\slprj\\sim\\varcache\\QuadArchitecture_AI\\checksumOfCache.mat",
+        "Hash":  "0BA2F1F44CC85F15AF8E15334218E7931BEDA3B49B093145B0AFDDE5C8AE81A5"
+    },
+    {
+        "Path":  "cache\\slprj\\sim\\varcache\\QuadArchitecture_AI\\varInfo.mat",
+        "Hash":  "C62C8F2CB3E3D4FE2769EE46AB7DF1ECFB825C0624A0E8CB1CB53B9180D9E9D0"
+    },
+    {
+        "Path":  "cache\\slprj\\sim\\varcache\\QuadArchitecture_AI\\tmwinternal\\simulink_cache.xml",
+        "Hash":  "F73BCB58F6FECEC9DB6B884422CC552834562F67906EC539A99479E76BEEE896"
+    },
+    {
+        "Path":  "cache\\slprj\\sim\\varcache\\VehicleModel_MVP_AI\\checksumOfCache.mat",
+        "Hash":  "F6E0944089E5E7DCADDB9E3DACA8A9759E2FD2DCE2B53285408122D8CA01439F"
+    },
+    {
+        "Path":  "cache\\slprj\\sim\\varcache\\VehicleModel_MVP_AI\\varInfo.mat",
+        "Hash":  "A87A5DF3CC1313F8E396F5316FB557A4766C196424E9E9993F04F1B129F47B19"
+    },
+    {
+        "Path":  "cache\\slprj\\sim\\varcache\\VehicleModel_MVP_AI\\tmwinternal\\simulink_cache.xml",
+        "Hash":  "0D4FDDCA03B3E1AEEA533AB167B67D20C8D858F5DF46BA436F95AC7F51403390"
+    },
+    {
+        "Path":  "cache\\slprj\\sim\\varcache\\Visualization_MVP_AI\\checksumOfCache.mat",
+        "Hash":  "F3AA50FA66981C658CD9DD2BF0ECABEFAFE7BE921C4907E9B960A76B8FAA28C2"
+    },
+    {
+        "Path":  "cache\\slprj\\sim\\varcache\\Visualization_MVP_AI\\varInfo.mat",
+        "Hash":  "0907E4A2C8CCC3C46F57F7B3D2E556903D8C9C35DA53D3DD9DAAEB20115F9287"
+    },
+    {
+        "Path":  "cache\\slprj\\sim\\varcache\\Visualization_MVP_AI\\tmwinternal\\simulink_cache.xml",
+        "Hash":  "5B01BD4594D93B0704C72A775834A4DB954D34D5ED49B80D83C3B8FAD49DFBFE"
+    },
+    {
+        "Path":  "cache\\slprj\\_jitprj\\jitEngineAccessInfo.mat",
+        "Hash":  "D82F5F7A77C5210529D99C761370D4DC9807148D987C2D08FC2D011A8AE611F3"
+    },
+    {
+        "Path":  "cache\\slprj\\_jitprj\\s4dTnTatoO887OAvBgGgiQG.l",
+        "Hash":  "8BCEE64953110918A0CC6559CA251897D34D4D2E1C01CCC5267BF14847EB4483"
+    },
+    {
+        "Path":  "cache\\slprj\\_jitprj\\s4dTnTatoO887OAvBgGgiQG.mat",
+        "Hash":  "76C40974DF6DE7FABC30DEE57B0DFA1FEEBB1C179705117D92C7D59DD22CE6F7"
+    },
+    {
+        "Path":  "cache\\slprj\\_jitprj\\sSNDfIRQTsRZZVqsX63cx7G.l",
+        "Hash":  "A323EFFCBF67CF383AE4D912C7FB18D22EDBEB9C5F08E910F4FA13F736375BF4"
+    },
+    {
+        "Path":  "cache\\slprj\\_jitprj\\sSNDfIRQTsRZZVqsX63cx7G.mat",
+        "Hash":  "A3E9CB98F635E8137BD434674A5F99994A0C12BB4B80D398F41EDA29091BE01A"
+    },
+    {
+        "Path":  "cache\\slprj\\_jitprj\\sUqQ3Zmj6G2j30GEADpDEhB.l",
+        "Hash":  "F03B5ED8D32E894347E76E5D3778B51C5DBA42257B42A5FF1CD5B1B0B043EB24"
+    },
+    {
+        "Path":  "cache\\slprj\\_jitprj\\sUqQ3Zmj6G2j30GEADpDEhB.mat",
+        "Hash":  "92DFC8248D25521A64DB7955A7BE6E2E6E521223C9577727595A57A89A38F0A2"
+    },
+    {
+        "Path":  "cache\\slprj\\_jitprj\\sUxQMaZ0v7ITk3n8M0RHvOD.l",
+        "Hash":  "94B6C66BC54E7435254A491EDBE1E56868BC5F7F7A18BAB0F8FDF58DBDBD545F"
+    },
+    {
+        "Path":  "cache\\slprj\\_jitprj\\sUxQMaZ0v7ITk3n8M0RHvOD.mat",
+        "Hash":  "AA662163FAAF11E66764E552BE4332CFE30427B16B62A8814CEA01443E3B5393"
+    },
+    {
+        "Path":  "cache\\slprj\\_jitprj\\sVdBrb8ely74FbzVh0LE4QH.l",
+        "Hash":  "9F3CD5A61AE28C9779450AB685EF8B515416C901C59E66ED37EB3D1C311F0822"
+    },
+    {
+        "Path":  "cache\\slprj\\_jitprj\\sVdBrb8ely74FbzVh0LE4QH.mat",
+        "Hash":  "55481CCA546CC38DD52CAF41FB0EC64C841356EBC960A52392827E168CA39EC0"
+    },
+    {
+        "Path":  "cache\\slprj\\_jitprj\\syisLYoUerum6JJ65Ys4PG.l",
+        "Hash":  "07918F2980070880C7A325D62881165BB6DB2A2CE7FE18FA0B215CA5A6E4D496"
+    },
+    {
+        "Path":  "cache\\slprj\\_jitprj\\syisLYoUerum6JJ65Ys4PG.mat",
+        "Hash":  "0FAE2868E23621FF70BF7FEFC77D2D7DEC3EB575231717D68D16887C94926A2B"
+    },
+    {
+        "Path":  "cache\\slprj\\_sfprj\\EMLReport\\emlReportAccessInfo.mat",
+        "Hash":  "1043D59AEAD69C7CEAC9381C2A05886C096AA1E8BC745CF946E905704A120751"
+    },
+    {
+        "Path":  "cache\\slprj\\_sfprj\\EMLReport\\nRKVl03bFiRP2AitA2R1dE.mat",
+        "Hash":  "B6D0A1208E2DC3063459E47EB779081D106B9EB8C97972B019D0C58B78D5CC96"
+    },
+    {
+        "Path":  "cache\\slprj\\_sfprj\\EMLReport\\s4dTnTatoO887OAvBgGgiQG.mat",
+        "Hash":  "62A44BF664237F26BED52586703A6C6D02170A41402D981EB4C20299E0D03ABB"
+    },
+    {
+        "Path":  "cache\\slprj\\_sfprj\\EMLReport\\sSNDfIRQTsRZZVqsX63cx7G.mat",
+        "Hash":  "3E90E45F10C07969C3A3568B41FEFA77BCE8EB54A0E4794E06FD5FABDF031E1D"
+    },
+    {
+        "Path":  "cache\\slprj\\_sfprj\\EMLReport\\sUqQ3Zmj6G2j30GEADpDEhB.mat",
+        "Hash":  "52DBCA7B5C9F2F4BC689FFB61962F77A71983D97AD987485B7092831F5EB6092"
+    },
+    {
+        "Path":  "cache\\slprj\\_sfprj\\EMLReport\\sUxQMaZ0v7ITk3n8M0RHvOD.mat",
+        "Hash":  "2986C25351BB64C91114972F599CC88EDF98D2A3DF31F154271779E80B6BD0B9"
+    },
+    {
+        "Path":  "cache\\slprj\\_sfprj\\EMLReport\\sVdBrb8ely74FbzVh0LE4QH.mat",
+        "Hash":  "2ACF29423B552F19B3750A6A72A0EF13BF44EEDB0A87290C61BAFE031047D640"
+    },
+    {
+        "Path":  "cache\\slprj\\_sfprj\\EMLReport\\syisLYoUerum6JJ65Ys4PG.mat",
+        "Hash":  "216A7C0709C3ABA2E05026662280F0560F7EFFEA56AE904966AEC34701362A52"
+    },
+    {
+        "Path":  "cache\\slprj\\_sfprj\\FeedbackControl_MVP_AI\\_self\\sfun\\info\\binfo.mat",
+        "Hash":  "89DD5B415E821F481BB313EA11058D1951DAC8DB8D87936A9D2D1EABEBE1007A"
+    },
+    {
+        "Path":  "cache\\slprj\\_sfprj\\GCS_MVP_AI\\_self\\sfun\\info\\binfo.mat",
+        "Hash":  "C7CAD1B39965F01D3A4FF459E832E4A4FF99E6F43C871A0200CE540CF3946C0D"
+    },
+    {
+        "Path":  "cache\\slprj\\_sfprj\\Guidance_MVP_AI\\_self\\sfun\\info\\binfo.mat",
+        "Hash":  "42C29AE11DE10F05072F7A952553340DDE98B6A4E2488E0A93DC5171B385CD77"
+    },
+    {
+        "Path":  "cache\\slprj\\_sfprj\\ModeLogic_MVP_AI\\_self\\sfun\\info\\binfo.mat",
+        "Hash":  "D261B419CE1EFB9B2F77DF8FAA2FE5BF2BBECD0D277CA69E03AB833AD8C2D026"
+    },
+    {
+        "Path":  "cache\\slprj\\_sfprj\\precompile\\0wtHT02a1L7N7ygPbCIMJE.mat",
+        "Hash":  "254FEA49ECE19478C8F0FDB2219708136542EA043DE0B47485CCC84AD9F8BE02"
+    },
+    {
+        "Path":  "cache\\slprj\\_sfprj\\precompile\\5EUKmF04BpRIzHb0aoE5bE.mat",
+        "Hash":  "35E36CF2A22723F8CA2FAB4879052DC5BADC0CD142CFC87D1D465B4873246898"
+    },
+    {
+        "Path":  "cache\\slprj\\_sfprj\\precompile\\Aj3eSZz1RybREx1ElcUNrB.mat",
+        "Hash":  "2058B45A9B74E73DAE9CFF56547906B8E673DC0EC6B4CFD6A4E08CD35236B18A"
+    },
+    {
+        "Path":  "cache\\slprj\\_sfprj\\precompile\\autoInferAccessInfo.mat",
+        "Hash":  "8A56E22F8622096751B5AC09FB9DFBB6EE12ABB70E61DEE473F55E0DF211D33F"
+    },
+    {
+        "Path":  "cache\\slprj\\_sfprj\\precompile\\bCEZfWBdGsHTLTrrYN7WB.mat",
+        "Hash":  "93F80158C390CABDFDC2B3FE43429D851D470AE21846A138D2E3F17A129EEF2D"
+    },
+    {
+        "Path":  "cache\\slprj\\_sfprj\\precompile\\j4RZPnHiNOPVM8bXQWmTlG.mat",
+        "Hash":  "B0EBAADB4A44E55CF85CA599F3DC069AD16FCDE5711E6141AD6DD747641D4E5C"
+    },
+    {
+        "Path":  "cache\\slprj\\_sfprj\\precompile\\k5mAyGk6IJerV7UJxwJFq.mat",
+        "Hash":  "CA524C0083EF02CA139FAEF4E171B0A776586BEBBC8D2B57856D24B9823784D1"
+    },
+    {
+        "Path":  "cache\\slprj\\_sfprj\\precompile\\mw7zkM7jKwiphafGgp3siD.mat",
+        "Hash":  "2F8D5F8CF330B9D4CDB8FBC7904AB2D4558EC2666A1BC47398414F5F43A2138D"
+    },
+    {
+        "Path":  "cache\\slprj\\_sfprj\\precompile\\ncXt53iWKiX5pfY5sTiMh.mat",
+        "Hash":  "AD36463F68EFEB708E845461D9894D2A54577F8A9AF8E19F8E3F471168A673DD"
+    },
+    {
+        "Path":  "cache\\slprj\\_sfprj\\VehicleModel_MVP_AI\\_self\\sfun\\info\\binfo.mat",
+        "Hash":  "F0D47F8DBA3E7FA67619DFF5462C34154D49A955A26855E09A1E36F7DA4D95AC"
+    },
+    {
+        "Path":  "inherited_stage01\\CHECKPOINT_SHA256.txt",
+        "Hash":  "0BF69A919656D06898423C87220407D99F763D36BD4904E49C20689911C4E9DF"
+    },
+    {
+        "Path":  "inherited_stage01\\STAGE_README.md",
+        "Hash":  "B9AE2D557FFCC3B70A23E667298C50258F17CF4B959588E33ECFCF649B5AD428"
+    },
+    {
+        "Path":  "inherited_stage01\\validation_report.json",
+        "Hash":  "28B5ABE22EE8B66AD5DD02F01C5B930A8B0B226B364442E6BBF4C2C08C86D866"
+    },
+    {
+        "Path":  "walkthrough\\01_TopLevel.png",
+        "Hash":  "9DAF9BFB996AC1CD4AF2137D32C53E4887E67DA040F7DF5FE85EAFC6FF92AC50"
+    },
+    {
+        "Path":  "walkthrough\\02_AirVehicle.png",
+        "Hash":  "070FCA6A3E05B9C130F9B6ABFCA3B4F8AA7FCB31950E3B893B9914B97CED28A9"
+    },
+    {
+        "Path":  "walkthrough\\03_FCS.png",
+        "Hash":  "98F0F285E44FA8D66A10EA65EE8B02ECC64FE838673F606FD6B86FB6CAF7DF37"
+    }
+]

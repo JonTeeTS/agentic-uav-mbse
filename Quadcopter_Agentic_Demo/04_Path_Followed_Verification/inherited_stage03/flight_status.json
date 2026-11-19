@@ -1,0 +1,127 @@
+{
+  "Stage": "03_3D_Flight_Simulation",
+  "ModelCompiles": true,
+  "SimulationRuns": true,
+  "FormalRequirementTests": "Not run",
+  "EndTime": 28.16,
+  "StopDescription": "Stop requested by QuadArchitecture_AI/GroundControlStation|GCS_MVP_AI/StopWhenLanded",
+  "SimulationWarnings": 0,
+  "ModeSequence": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "ModeTransitionTimes": [
+    0,
+    1,
+    5,
+    9.46,
+    13.92,
+    18.72,
+    28.14
+  ],
+  "FinalPositionNED": [
+    -0.042804270884449595,
+    2.0518581342002111,
+    -0.021650009098602565
+  ],
+  "FiniteState": true,
+  "MaximumQuaternionNormError": 2.2204460492503131E-16,
+  "ModelCoordinates": "NED, meters; scalar-first Hamilton body-to-NED quaternion",
+  "DisplayCoordinates": "ENU, converted by UAV Animation (R2026b)",
+  "LandingLimit": "Inherited idealized proximity stop; no physical ground-contact model.",
+  "Parameters": {
+    "SampleTime": 0.02,
+    "FixedStep": 0.005,
+    "StopTime": 90,
+    "StartTime": 1,
+    "Mass": 1,
+    "Gravity": 9.81,
+    "InitialPosition": [
+      0,
+      0,
+      0
+    ],
+    "TakeoffPosition": [
+      0,
+      0,
+      -2
+    ],
+    "Waypoints": [
+      [
+        2,
+        0,
+        -2
+      ],
+      [
+        2,
+        2,
+        -2
+      ],
+      [
+        0,
+        2,
+        -2
+      ]
+    ],
+    "ArrivalRadius": 0.12,
+    "ArrivalSpeed": 0.15,
+    "HoverDwell": 1,
+    "LandingSpeed": 0.25,
+    "LandedHeight": 0.025,
+    "LandedSpeed": 0.12,
+    "Kp": [
+      1.2,
+      1.2,
+      2
+    ],
+    "Ki": [
+      0.06,
+      0.06,
+      0.08
+    ],
+    "Kd": [
+      2,
+      2,
+      2.5
+    ],
+    "IntegralLimit": [
+      2,
+      2,
+      2
+    ],
+    "AccelerationLimit": [
+      2,
+      2,
+      2.5
+    ],
+    "TiltLimit": 0.3,
+    "ThrustLimits": [
+      1.9620000000000002,
+      17.658
+    ],
+    "AttitudePD": [
+      100,
+      20
+    ],
+    "YawRateGain": 20,
+    "ThrustGain": 30
+  },
+  "AnimationFigureOpen": true,
+  "PositionPlotsOpen": true,
+  "LastVisualizationSampleTime": 28.150000000000002,
+  "LastVisualizationPositionNED": [
+    -0.042827636679604826,
+    2.051886585305859,
+    -0.022761023859566579
+  ],
+  "LastVisualizationVelocityNED": [
+    0.0023371657254783371,
+    -0.0028458871883171397,
+    0.11172267400328553
+  ]
+}

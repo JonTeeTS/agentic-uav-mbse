@@ -1,0 +1,45 @@
+{
+    "Stage":  "04_Path_Followed_Verification",
+    "FormalRequirement":  "UAV-MVP-FR-06",
+    "CriteriaVersion":  "PF-CRITERIA-v1",
+    "ExplicitUserApproval":  "Recorded before execution",
+    "NativeOutcome":  "Passed",
+    "NativeTestsPassed":  1,
+    "NativeTestsFailed":  0,
+    "NativeTestsIncomplete":  0,
+    "ApprovedToleranceMeters":  0.2,
+    "MaximumTrackingErrorMeters":  0.11415256699269238,
+    "RMSTrackingErrorMeters":  0.095863289763454915,
+    "EvaluatedSamples":  686,
+    "OrderedWaypointArrival":  true,
+    "PathCompletedWithin90Seconds":  true,
+    "ModelSimulationEndSeconds":  28.16,
+    "VerifyLinks":  1,
+    "VerifyLinkTargets":  [
+                              "UAV-MVP-FR-06"
+                          ],
+    "LocalTraceabilityLinks":  45,
+    "SimulationWarnings":  0,
+    "EarlierStagesUnchanged":  {
+                                   "value":  [
+                                                 {
+                                                     "Folder":  "..\\03_3D_Flight_Simulation",
+                                                     "Unchanged":  true,
+                                                     "FilesVerified":  117
+                                                 },
+                                                 {
+                                                     "Folder":  "..\\02_Executable_Model",
+                                                     "Unchanged":  true,
+                                                     "FilesVerified":  97
+                                                 },
+                                                 {
+                                                     "Folder":  "..\\01_Requirements_Architecture",
+                                                     "Unchanged":  true,
+                                                     "FilesVerified":  11
+                                                 }
+                                             ],
+                                   "Count":  3
+                               },
+    "BroaderFormalVerification":  "Not performed",
+    "ScopeBoundary":  "Sampled 3D cruise waypoint path only; takeoff/landing performance, safety, hardware, and overall compliance unverified."
+}

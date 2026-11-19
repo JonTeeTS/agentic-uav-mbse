@@ -1,0 +1,33 @@
+﻿{
+    "Stage":  "02_Executable_Model",
+    "MATLABRelease":  "R2026b Update 1",
+    "ModelCompiles":  true,
+    "SimulationRuns":  true,
+    "SimulationEndTime":  28.16,
+    "SimulationWarnings":  0,
+    "ObservedModes":  [
+                          0,
+                          1,
+                          2,
+                          3,
+                          4,
+                          5,
+                          6
+                      ],
+    "FiniteState":  true,
+    "StructuralChecks":  "Healthy for architecture and all six behavior models",
+    "Requirements":  18,
+    "ArchitectureLinks":  40,
+    "VerifyLinks":  0,
+    "Stage01Unchanged":  true,
+    "Stage01WorkingDependencies":  0,
+    "FormalVerification":  "Not performed",
+    "VisualVerification":  "Not performed",
+    "EvidenceFiles":  [
+                          "smoke_status.json",
+                          "smoke_result.mat",
+                          "structural_checks.json",
+                          "dependency_audit.json",
+                          "stage01_integrity.json"
+                      ]
+}

@@ -1,0 +1,67 @@
+{
+  "CriteriaVersion": "PF-CRITERIA-v1",
+  "Requirement": "UAV-MVP-FR-06",
+  "TestCase": "Path Followed",
+  "ToleranceMeters": 0.2,
+  "CorridorSatisfied": true,
+  "OrderedWaypointArrivalSatisfied": true,
+  "PathCompletedWithinLimit": true,
+  "OverallMaximumErrorMeters": 0.11415256699269238,
+  "OverallRMSErrorMeters": 0.095863289763454915,
+  "EvaluatedPositionSamples": 686,
+  "RecordedPositionSamples": 1409,
+  "MedianPositionSamplePeriodSeconds": 0.019999999999999574,
+  "TimeAlignment": "Matching recorded timestamps",
+  "SimulationEndTimeSeconds": 28.16,
+  "WaypointFirstArrivalTimesSeconds": [
+    7.8,
+    12.34,
+    17.080000000000002
+  ],
+  "ModeSequence": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "LegStatistics": [
+    {
+      "Leg": 1,
+      "Mode": 2,
+      "Samples": 223,
+      "MaximumErrorMeters": 0.088753061177977877,
+      "RMSErrorMeters": 0.077087260946487088,
+      "ClosestWaypointDistanceMeters": 0.068591219732125133,
+      "ClosestWaypointTimeSeconds": 8.88,
+      "StartTimeSeconds": 5,
+      "EndTimeSeconds": 9.44
+    },
+    {
+      "Leg": 2,
+      "Mode": 3,
+      "Samples": 223,
+      "MaximumErrorMeters": 0.11177633840499605,
+      "RMSErrorMeters": 0.10587076639521238,
+      "ClosestWaypointDistanceMeters": 0.10544857001211513,
+      "ClosestWaypointTimeSeconds": 13.38,
+      "StartTimeSeconds": 9.46,
+      "EndTimeSeconds": 13.9
+    },
+    {
+      "Leg": 3,
+      "Mode": 4,
+      "Samples": 240,
+      "MaximumErrorMeters": 0.11415256699269238,
+      "RMSErrorMeters": 0.10164265329459253,
+      "ClosestWaypointDistanceMeters": 0.097634985428250012,
+      "ClosestWaypointTimeSeconds": 18.6,
+      "StartTimeSeconds": 13.92,
+      "EndTimeSeconds": 18.7
+    }
+  ],
+  "Verdict": "Pass",
+  "Scope": "Sampled 3D cruise waypoint path only; takeoff/landing performance, safety, hardware, and overall compliance unverified."
+}

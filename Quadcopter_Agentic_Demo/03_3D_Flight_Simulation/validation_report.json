@@ -1,0 +1,31 @@
+﻿{
+    "Stage":  "03_3D_Flight_Simulation",
+    "ModelCompiles":  true,
+    "SimulationRuns":  true,
+    "EndTime":  28.16,
+    "SimulationWarnings":  0,
+    "ModeSequence":  [
+                         0,
+                         1,
+                         2,
+                         3,
+                         4,
+                         5,
+                         6
+                     ],
+    "VisualReview":  "Native opaque red rotor/arm mesh, waypoint markers, actual trajectory, and position plots inspected",
+    "VisualizationRequirements":  [
+                                      "UAV-MVP-SV-02",
+                                      "UAV-MVP-SV-03",
+                                      "UAV-MVP-SV-04"
+                                  ],
+    "CoordinateInput":  "NED position and scalar-first body-to-NED quaternion",
+    "CoordinateDisplay":  "ENU, converted by native UAV Animation",
+    "LocalTraceabilityLinks":  43,
+    "VerifyLinks":  0,
+    "EarlierStageWorkingDependencies":  0,
+    "Stage02Unchanged":  true,
+    "Stage02FilesVerified":  97,
+    "FormalVerification":  "Not performed",
+    "LandingLimitation":  "Inherited idealized proximity stop; no physical ground-contact model."
+}
